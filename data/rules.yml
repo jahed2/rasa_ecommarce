@@ -86,3 +86,148 @@ rules:
     - requested_slot: null
   #the action we want to run when the form is submitted
   - action: action_submit
+
+
+
+- rule: say for sweater
+  steps: 
+  # - intent: tell_name
+  - intent: sweater
+  - action: utter_sweater
+  - action: user_details_form
+  - active_loop: user_details_form
+
+- rule: sub for sweater
+  condition:
+  #condition that form is active
+  - active_loop: user_details_form
+  steps:
+  #form is deactivated
+  - action: user_details_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  #the action we want to run when the form is submitted
+  - action: action_submit
+
+
+
+- rule: say for dress
+  steps: 
+  # - intent: tell_name
+  - intent: dress
+  - action: utter_dress
+  - action: user_details_form
+  - active_loop: user_details_form
+
+
+- rule: sub for dress
+  condition:
+  #condition that form is active
+  - active_loop: user_details_form
+  steps:
+  #form is deactivated
+  - action: user_details_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  #the action we want to run when the form is submitted
+  - action: action_submit
+
+
+
+- rule: say for hoodies
+  steps: 
+  # - intent: tell_name
+  - intent: hoodies
+  - action: utter_hoodies
+  - action: user_details_form
+  - active_loop: user_details_form
+
+
+- rule: sub for hoodies
+  condition:
+  #condition that form is active
+  - active_loop: user_details_form
+  steps:
+  #form is deactivated
+  - action: user_details_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  #the action we want to run when the form is submitted
+  - action: action_submit
+
+
+
+- rule: say for shirt
+  steps: 
+  # - intent: tell_name
+  - intent: shirt
+  - action: utter_shirt
+  - action: user_details_form
+  - active_loop: user_details_form
+
+
+- rule: sub for shirt
+  condition:
+  #condition that form is active
+  - active_loop: user_details_form
+  steps:
+  #form is deactivated
+  - action: user_details_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  #the action we want to run when the form is submitted
+  - action: action_submit
+
+
+
+- rule: say for T-shirt
+  steps: 
+  # - intent: tell_name
+  - intent: T-shirt
+  - action: utter_t_shirt
+  - action: user_details_form
+  - active_loop: user_details_form
+
+
+- rule: sub for T-shirt
+  condition:
+  #condition that form is active
+  - active_loop: user_details_form
+  steps:
+  #form is deactivated
+  - action: user_details_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  #the action we want to run when the form is submitted
+  - action: action_submit
+
+
+
+- rule: say for Jeans
+  steps: 
+  # - intent: tell_name
+  - intent: Jeans
+  - action: utter_jeans
+  - action: user_details_form
+  - active_loop: user_details_form
+
+
+- rule: sub for Jeans
+  condition:
+  #condition that form is active
+  - active_loop: user_details_form
+  steps:
+  #form is deactivated
+  - action: user_details_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  #the action we want to run when the form is submitted
+  - action: action_submit
+
+

@@ -222,6 +222,19 @@ nlu:
     - [dhaka]is my {"entity":"address"}
     - [dhaka]{"entity":"address"}
     - my home address is [dhaka]{"entity":"address"}
+- intent: email
+  examples: |
+    - my email id is [noman@gmail.com]{"entity":"email"}
+    - [noman@gmail.com] is my {"entity":"email"} email id
+    - [noman@gmail.com] {"entity":"email"}
+    - my email address is [noman@gmail.com]{"entity":"email"}
+    - my email id is [jahed@gmail.com]{"entity":"email"}
+    - [jahed@gmail.com] is my {"entity":"email"} email id
+    - [jahed@gmail.com]{"entity":"email"}
+    - my email address is [jahed@gmail.com]{"entity":"email"}
+    - my email id is [rahul@gmail.com]{"entity":"email"}
+    - [rahul@gmail.com]{"entity":"email"}
+    - [rahul@gmail.com]{"entity":"email"}
 - intent: tell_name
   examples: |
     - what is your name?

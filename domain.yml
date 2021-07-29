@@ -32,6 +32,9 @@ intents:
   - address:
       use_entities:
         - address
+  - email:
+      use_entities:
+        - email
 
 responses:
   utter_greet:
@@ -89,23 +92,23 @@ responses:
         payload: "/Jeans"
 
   utter_computer:
-  - text: "please give me your name,mobile_number,email,address? i will sent products details"
+  - text: "please give me your name,mobile_number,email,address? i will sent product details"
   utter_mobile:
-  - text: "please give me your name,mobile_number,email,address? i will sent products details "
+  - text: "please give me your name,mobile_number,email,address? i will sent product details "
   utter_televison:
-  - text: "please give me your name,mobile_number,email,address? i will sent products details"
+  - text: "please give me your name,mobile_number,email,address? i will sent product details"
   utter_sweater:
-  - text: "for know more about sweater please visit this link https://www.ebay.co.uk/b/sweater-shop/bn_7024742608"
+  - text: "please give me your name,mobile_number,email,address? i will sent product details"
   utter_dress:
-  - text: "for know more about dress please visit this link https://yellowclothing.net/collections/women"
+  - text: "please give me your name,mobile_number,email,address? i will sent product details"
   utter_hoodies:
-  - text: "for know more about hoodies please visit this link https://www.amazon.com/hoodies/s?k=hoodies"
+  - text: "please give me your name,mobile_number,email,address? i will sent product details"
   utter_shirt:
-  - text: "for know more about shirt please visit this link https://www.daraz.com.bd/mens-shirts/"
+  - text: "please give me your name,mobile_number,email,address? i will sent product details"
   utter_t_shirt:
-  - text: "for more details please visit this links https://priyoshop.com/t-shirts"
+  - text: "please give me your name,mobile_number,email,address? i will sent product details"
   utter_jeans:
-  - text: "for more details please visit this links https://www.daraz.com.bd/mens-jeans/"
+  - text: "please give me your name,mobile_number,email,address? i will sent product details"
   # utter_name:
   # - text: "my name is noman siddique"
   utter_ask_name:
@@ -114,6 +117,8 @@ responses:
   - text: "what is your mobile number?"
   utter_ask_address:
   - text: "what is your address"
+  utter_ask_email:
+  - text: "what is your email id?"
 
   # utter_welcome:
   # - text: Hi there! What can I help you with today?
@@ -121,7 +126,7 @@ responses:
   utter_thanks:
   - text: "we will get your order shortly."
   utter_details_thanks:
-  - text: "Thanks for providing the given details \nName: {Name},\nMobile Number:{Mobile_number},\nAddress: {Address} we will sent product details as early as possible"
+  - text: "Thanks for providing the given details \nName: {Name},\nMobile Number:{Mobile_number},\nAddress: {Address},\nemail: {email}.  we will sent product details as early as possible"
 
 
 actions:
@@ -153,17 +158,21 @@ actions:
   - utter_thanks
   - utter_details_thanks
   - action_submit
+  - utter_ask_email
   
 entities:
   - name
   - number 
   - address
+  - email
 slots: 
   name:
     type: text
   number:
     type: text
   address:
+    type: text
+  email:
     type: text
 forms:
   user_details_form:
@@ -176,6 +185,9 @@ forms:
     address:
       - type: from_entity
         entity: address
+    email:
+      - type: from_entity
+        entity: email
 
 
 session_config:

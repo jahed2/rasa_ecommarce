@@ -10,8 +10,8 @@ stories:
   - action: utter_electronics_or_clothing
   - intent: Electronics
   - action: utter_electronics
-  - intent: Clothing
-  - action: utter_clothing
+  # - intent: Clothing
+  # - action: utter_clothing
   # - intent: computer
   # - action: utter_computer
   # - intent: mobile
@@ -27,21 +27,28 @@ stories:
   - action: utter_botgreet
   - intent: what_do_you_have
   - action: utter_electronics_or_clothing
-  - intent: sweater
-  - action: utter_sweater
-  - intent: dress
-  - action: utter_dress
-  - intent: hoodies
-  - action: utter_hoodies
-  - intent: shirt
-  - action: utter_shirt
-  - intent: T-shirt
-  - action: utter_t_shirt
-  - intent: Jeans
-  - action: utter_jeans
+  # - intent: sweater
+  # - action: utter_sweater
+  # - intent: dress
+  # - action: utter_dress
+  # - intent: hoodies
+  # - action: utter_hoodies
+  # - intent: shirt
+  # - action: utter_shirt
+  # - intent: T-shirt
+  # - action: utter_t_shirt
+  # - intent: Jeans
+  # - action: utter_jeans
 
 - story: happy path 3
   steps:
+  
+  - intent: greet
+  - action: utter_botgreet
+  - intent: what_do_you_have
+  - action: utter_electronics_or_clothing
+  - intent: Clothing
+  - action: utter_clothing
   # - intent: greet
   # - action: utter_botgreet
   # - intent: what_do_you_have

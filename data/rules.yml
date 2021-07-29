@@ -1,0 +1,88 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+# - rule: welcome user
+#   conversation_start: true  # this rule only applies at the beginning of a conversation
+#   steps:
+#   - intent: greet
+#   - action: utter_welcome
+  
+- rule: Activate form
+  steps: 
+  # - intent: tell_name
+  - intent: computer
+  - action: utter_computer
+  - action: user_details_form
+  - active_loop: user_details_form
+
+- rule: Submit form
+  condition:
+  #condition that form is active
+  - active_loop: user_details_form
+  steps:
+  #form is deactivated
+  - action: user_details_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  #the action we want to run when the form is submitted
+  - action: action_submit
+
+
+
+
+- rule: mobile details
+  steps: 
+  # - intent: tell_name
+  - intent: mobile
+  - action: utter_mobile
+  - action: user_details_form
+  - active_loop: user_details_form
+
+- rule: mobile 
+  condition:
+  #condition that form is active
+  - active_loop: user_details_form
+  steps:
+  #form is deactivated
+  - action: user_details_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  #the action we want to run when the form is submitted
+  - action: action_submit
+
+
+
+
+- rule: say for tv
+  steps: 
+  # - intent: tell_name
+  - intent: Television
+  - action: utter_televison
+  - action: user_details_form
+  - active_loop: user_details_form
+
+- rule: sub for tv
+  condition:
+  #condition that form is active
+  - active_loop: user_details_form
+  steps:
+  #form is deactivated
+  - action: user_details_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  #the action we want to run when the form is submitted
+  - action: action_submit

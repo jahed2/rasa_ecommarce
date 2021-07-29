@@ -1,0 +1,230 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: what_do_you_have
+  examples: |
+    - what can i get here
+    - what type of products do you have?
+    - what can i have to shop
+    - what type of products available here?
+- intent: Clothing
+  examples: |
+    - cloths
+    - i want clothing item 
+    - clothing item
+    - clothing products are available here?
+    - i want apperal items?
+- intent: Electronics
+  examples: |
+    - electronics
+    - i want electronics product
+    - electronics item
+    - electronics item are available here
+    - can you give me electronics item
+- intent: mens
+  examples: |
+    - i want mens products
+    - mens item
+    - what type of mens product do you have
+    - what types of men product are available here
+    - i want mens items
+- intent: womens
+  examples: |
+    - i want women products
+    - women item
+    - what type of women products do you have
+    - what type of women product are available here
+    - i want women items
+- intent: computer
+  examples: |
+    - can i get laptop
+    - do you have any laptop in your shop
+    - i want to buy a laptop
+    - laptop
+    - computer
+- intent: mobile
+  examples: |
+    - i want to buy mobile phone
+    - mobile phone
+    - do you have any mobile in your shop
+    - mobile phone
+    - i want mobile items
+- intent: Television
+  examples: |
+    - i want to buy television
+    - Television
+    - do you have any television in your shop
+    - i want television
+    - Television products
+# - intent: Men
+#   examples: |
+#     - i want mens products 
+#     - mens
+#     - i want mens item
+#     - mens products
+#     - do you have any mens products
+# - intent: Women
+#   examples: |
+#     - i want women products
+#     - Womens
+#     - i want womens item
+#     - womens item
+#     - do you have any women products
+
+- intent: sweater
+  examples: |
+    - i want sweater 
+    - i want mens sweater
+    - i want ladies sweater
+    - ladies sweater
+    - sweater
+- intent: dress
+  examples: |
+    - i want dress
+    - i want men dress
+    - i want women cloth'
+    - mens dress
+    - dress
+- intent: hoodies
+  examples: |
+    - i want hoodies
+    - what type of huddies do you have
+    - mens hoodies
+    - hoodies
+    - i want mens hoodies
+- intent: shirt
+  examples: |
+    - i want shirt
+    - i want mens shirt
+    - mens shirt
+    - shirt
+    - what type of shirt available here
+- intent: T-shirt
+  examples: |
+    - i want T-shirt
+    - i want mens T-shirt
+    - mens T-shirt
+    - T-shirt
+    - what type of T-shirt available here 
+- intent: Jeans
+  examples: |
+    - i want jeans pant
+    - i want menas jeans pant
+    - mens jeans 
+    - what type jeans are avaible here
+    
+- intent: my_name
+  examples: |
+    - my name is [noman]{"entity":"name","value":"noman"}
+    - my name is [jahed]{"entity":"name","value":"jahed"}
+    - my name is [afif]{"entity":"name","value":"afif"}
+    - [noman] {"entity":"name","value":"noman"}
+    - people call me ["noman"]{"entity":"name","value":"noman"}
+    
+- intent: mobile_number
+  examples: |
+    - my number is [01690243037]{"entity":"number"}
+    - [01690243037]{"entity":"number"}
+    - [01690243037] {"entity":"number"} is my number
+    - my mobile number is [01690243037]{"entity":"number"}
+- intent: address
+  examples: |
+    - my address is [dhaka]{"entity":"address"}
+    - [dhaka]is my {"entity":"address"}
+    - [dhaka]{"entity":"address"}
+    - my home address is [dhaka]{"entity":"address"}
+- intent: tell_name
+  examples: |
+    - what is your name?
+    - tell me your name.
+    - what others call you
+    - what should i call you

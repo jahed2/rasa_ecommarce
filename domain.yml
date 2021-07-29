@@ -1,0 +1,183 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - what_do_you_have
+  - Clothing
+  - Electronics
+  - mens
+  - womens
+  - computer
+  - mobile
+  - Television
+  - sweater
+  - dress
+  - hoodies
+  - shirt
+  - T-shirt
+  - Jeans
+  - tell_name
+  - my_name:
+      use_entities:
+        - name
+  - mobile_number:
+      use_entities:
+        - number 
+  - address:
+      use_entities:
+        - address
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_botgreet:
+  - text: "how can i help you sir?"
+
+  utter_electronics_or_clothing:
+  - text: "what would you prefered clothing or electronics"
+    buttons:
+      - title: "electronics"
+        payload: "/Electronics"
+      - title: "clothing"
+        payload: "/Clothing"
+  utter_electronics:
+  - text: "we have different type of electronics product like Mobile,Television,Laptop,Camera "
+    buttons:
+      - title: "computer"
+        payload: "/computer"
+      - title: "mobile"
+        payload: "/mobile"
+      - title: "Television"
+        payload: "/Television"
+  utter_clothing:
+  - text: "we have different type of clothing product like sweater,dress,hoodies,T-shirt,flip-pops,shorts,Skirt,jeans"
+    buttons:
+      - title: "sweater"
+        payload: "/sweater"
+      - title: "dress"
+        payload: "/dress"
+      - title: "hoodies"
+        payload: "/hoodies"
+      - title: "shirt"
+        payload: "/shirt"
+      - title: "T-shirt"
+        payload: "/T-shirt"
+      - title: "jeans"
+        payload: "/Jeans"
+
+  utter_computer:
+  - text: "please give me your name,mobile_number,email,address? i will sent products details"
+  utter_mobile:
+  - text: "please give me your name,mobile_number,email,address? i will sent products details "
+  utter_televison:
+  - text: "please give me your name,mobile_number,email,address? i will sent products details"
+  utter_sweater:
+  - text: "for know more about sweater please visit this link https://www.ebay.co.uk/b/sweater-shop/bn_7024742608"
+  utter_dress:
+  - text: "for know more about dress please visit this link https://yellowclothing.net/collections/women"
+  utter_hoodies:
+  - text: "for know more about hoodies please visit this link https://www.amazon.com/hoodies/s?k=hoodies"
+  utter_shirt:
+  - text: "for know more about shirt please visit this link https://www.daraz.com.bd/mens-shirts/"
+  utter_t_shirt:
+  - text: "for more details please visit this links https://priyoshop.com/t-shirts"
+  utter_jeans:
+  - text: "for more details please visit this links https://www.daraz.com.bd/mens-jeans/"
+  # utter_name:
+  # - text: "my name is noman siddique"
+  utter_ask_name:
+  - text: "What is your name?"
+  utter_ask_number:
+  - text: "what is your mobile number?"
+  utter_ask_address:
+  - text: "what is your address"
+
+  # utter_welcome:
+  # - text: Hi there! What can I help you with today?
+
+  utter_thanks:
+  - text: "we will get your order shortly."
+  utter_details_thanks:
+  - text: "Thanks for providing the given details \nName: {Name},\nMobile Number:{Mobile_number},\nAddress: {Address} we will sent product details as early as possible"
+
+
+actions:
+  - utter_greet
+  # - utter_welcome
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - utter_iamabot
+  - utter_botgreet
+  - utter_electronics_or_clothing
+  - utter_electronics
+  - utter_clothing
+  # - utter_electronics_product
+  - utter_computer
+  - utter_mobile
+  - utter_televison
+  - utter_sweater
+  - utter_dress
+  - utter_hoodies
+  - utter_shirt
+  - utter_t_shirt
+  - utter_jeans
+  # - utter_name
+  - utter_ask_name
+  - utter_ask_number
+  - utter_ask_address
+  - utter_thanks
+  - utter_details_thanks
+  - action_submit
+  
+entities:
+  - name
+  - number 
+  - address
+slots: 
+  name:
+    type: text
+  number:
+    type: text
+  address:
+    type: text
+forms:
+  user_details_form:
+    name:
+      - type: from_entity
+        entity: name
+    number:
+      - type: from_entity
+        entity: number 
+    address:
+      - type: from_entity
+        entity: address
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

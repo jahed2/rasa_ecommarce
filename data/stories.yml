@@ -6,10 +6,13 @@ stories:
   steps:
   - intent: greet
   - action: utter_botgreet
-  - intent: what_do_you_have
+  - action: utter_multiple
+  # - action: action_carousels
+  # - intent: what_do_you_have
   - action: utter_electronics_or_clothing
   - intent: Electronics
   - action: utter_electronics
+  # - action: action_carousels
   # - intent: Clothing
   # - action: utter_clothing
   # - intent: computer
@@ -18,14 +21,16 @@ stories:
   # - action: utter_mobile
   # - intent: Television
   # - action: utter_televison
-  - intent: deny
-  - action: utter_happy
+  # - intent: deny
+  # - action: utter_happy
  
 - story: happy path 2
   steps:
   - intent: greet
   - action: utter_botgreet
-  - intent: what_do_you_have
+  - action: utter_multiple
+  # - action: action_carousels
+  # - intent: what_do_you_have
   - action: utter_electronics_or_clothing
   # - intent: sweater
   # - action: utter_sweater
@@ -45,7 +50,9 @@ stories:
   
   - intent: greet
   - action: utter_botgreet
-  - intent: what_do_you_have
+  - action: utter_multiple
+  # - action: action_carousels
+  # - intent: what_do_you_have
   - action: utter_electronics_or_clothing
   - intent: Clothing
   - action: utter_clothing
@@ -59,5 +66,65 @@ stories:
   # - action: utter_mobile
   # - intent: Television
   # - action: utter_televison
-  - intent: deny
-  - action: utter_happy
+  # - intent: deny
+  # - action: utter_happy
+
+- story: happy path 4
+  steps:
+  - intent: greet
+  - action: utter_botgreet
+  - action: utter_multiple
+  # - action: action_carousels
+  - action: utter_electronics_or_clothing
+  - intent: Electronics
+  - action: utter_electronics
+  - intent: computer
+  - action: utter_computer
+
+- story: happy path 5
+  steps:
+  - intent: greet
+  - action: utter_botgreet
+  - action: utter_multiple
+  # - action: action_carousels
+  - action: utter_electronics_or_clothing
+  - intent: Electronics
+  - action: utter_electronics
+  - intent: mobile 
+  - action: utter_mobile
+
+
+- story: happy path 6
+  steps:
+  - intent: greet
+  - action: utter_botgreet
+  - action: utter_multiple
+  # - action: action_carousels
+  - action: utter_electronics_or_clothing
+  - intent: Electronics
+  - action: utter_electronics
+  - intent: Television
+  - action: utter_televison
+ 
+  
+
+# - story: carousel
+#   steps:
+#   - intent: greet
+#   - action: utter_botgreet
+#   - action: utter_multiple
+#   - action: utter_electronics_or_clothing
+#   - intent: Electronics
+#   - action: utter_electronics
+#   - intent: computer
+#   - action: utter_computer
+#   - action: action_carousels
+
+# - story: happy path affirm
+#   steps:
+#     - intent: buy
+#     - action: utter_buy
+# - story: deny path
+#   steps:
+#     - intent: deny
+#     - action: utter_deny

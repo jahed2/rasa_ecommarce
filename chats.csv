@@ -1,0 +1,35 @@
+intent,user_input,entity_name,entity_value,action,bot_reply
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+mobile,/mobile,,,utter_mobile,We have different brand of mobile phones, what would you prefered?
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+mobile,/mobile,,,utter_mobile,We have different brand of mobile phones, what would you prefered?
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+asus,/asus,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,my name is nikhil,name,nikhil,utter_ask_number,What is your mobile number?
+mobile_number,my number is 01832363165,number,01832363165,utter_ask_address,What is your address
+address,my address is dhaka,address,dhaka,utter_ask_email,What is your email id?
+email,my email is noman@gmail.com,email,noman@gmail.com,utter_details_thanks,Thanks for providing the given details 
+Name: nikhil,
+Mobile Number:01832363165,
+Address: dhaka,
+email: noman@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+deny,/deny,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 

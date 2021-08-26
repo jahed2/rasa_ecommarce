@@ -1,0 +1,16 @@
+
+  {
+    "text": "What would you prefered clothing or electronics",
+        "button_type": "vertical",
+        "buttons":[
+    {
+         "title": "Electronics",
+         "payload": "/Electronics"
+    },
+
+    {    "title": "Clothing",
+         "payload": "/Clothing"
+    }
+
+    ]
+}

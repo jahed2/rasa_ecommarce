@@ -33,3 +33,500 @@ Electronics,/Electronics,,,utter_electronics,We have different type of electroni
 computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
 hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
 deny,/deny,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,deny,/deny,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,016902430,number,016902430,utter_ask_address,What is your address
+address,kolkata,address,kolkata,utter_ask_email,What is your email id?
+email,noman@gmail.com,email,noman@gmail.com,utter_details_thanks,Thanks for providing the given details 
+Name: jahed,
+Mobile Number:016902430,
+Address: kolkata,
+email: noman@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+email,noman siddique,email,siddique,utter_ask_name,What is your name?
+my_name,noman,name,noman,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,dhaka,address,dhaka,address,kolkata,address,kolkata,utter_ask_message,Please provide the message you want to send?
+what_do_you_have,welcome to our shop,,,utter_details_thanks,Thanks for providing the given details 
+Name: noman,
+Mobile Number:01690243037,
+Address: kolkata,
+email: siddique.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Clothing,/Clothing,,,utter_clothing,We have different type of clothing product like sweater,dress,hoodies,T-shirt,flip-pops,shorts,Skirt,jeans
+sweater,/sweater,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,kolkata,address,kolkata,utter_ask_email,What is your email id?
+email,nafisazabbar@gmail.com,email,nafisazabbar@gmail.com,email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_message,Please provide the message you want to send?
+greet,hello how are you,,,utter_details_thanks,Thanks for providing the given details 
+Name: jahed,
+Mobile Number:01690243037,
+Address: kolkata,
+email: nomansiddique719@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+dell,/dell,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,kolkata,address,kolkata,utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,email,nafisazabbar@gmail.com,email,nafisazabbar@gmail.com,utter_ask_message,Please provide the message you want to send?
+greet,hello,,,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,kolkata,address,kolkata,utter_ask_email,What is your email id?
+email,nafisazabbar@gmail.com,email,nafisazabbar@gmail.com,email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_message,Please provide the message you want to send?
+greet,hello,,,utter_details_thanks,Thanks for providing the given details 
+Name: jahed,
+Mobile Number:01690243037,
+Address: kolkata,
+email: nomansiddique719@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+dell,/dell,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01832363165,number,01832363165,utter_ask_address,What is your address
+address,dhaka,address,dhaka,utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,email,nafisazabbar@gmail.com,email,nafisazabbar@gmail.com,utter_ask_message,Please provide the message you want to send?
+greet,hello how are you,,,utter_details_thanks,Thanks for providing the given details 
+Name: jahed,
+Mobile Number:01832363165,
+Address: dhaka,
+email: nafisazabbar@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Clothing,/Clothing,,,utter_clothing,We have different type of clothing product like sweater,dress,hoodies,T-shirt,flip-pops,shorts,Skirt,jeans
+sweater,/sweater,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01832363165,number,01832363165,utter_ask_address,What is your address
+address,dhak,address,dhak,utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,email,nafisazabbar@gmail.com,email,nafisazabbar@gmail.com,email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Clothing,/Clothing,,,utter_clothing,We have different type of clothing product like sweater,dress,hoodies,T-shirt,flip-pops,shorts,Skirt,jeans
+Jeans,/Jeans,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,kolkata,address,kolkata,utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,email,nafisazabbar@gmail.com,email,nafisazabbar@gmail.com,utter_ask_message,Please provide the message you want to send?
+greet,hello how are you?,,,utter_details_thanks,Thanks for providing the given details 
+Name: jahed,
+Mobile Number:01690243037,
+Address: kolkata,
+email: nafisazabbar@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Clothing,/Clothing,,,utter_clothing,We have different type of clothing product like sweater,dress,hoodies,T-shirt,flip-pops,shorts,Skirt,jeans
+Jeans,/Jeans,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,kolkata,address,kolkata,utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,email,nafisazabbar@gmail.com,email,nafisazabbar@gmail.com,utter_ask_message,Please provide the message you want to send?
+greet,hello how are you?,,,utter_details_thanks,Thanks for providing the given details 
+Name: jahed,
+Mobile Number:01690243037,
+Address: kolkata,
+email: nafisazabbar@gmail.com.  we will sent product details as early as possible
+buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_details_thanks,Thanks for providing the given details 
+Name: jahed,
+Mobile Number:01690243037,
+Address: kolkata,
+email: nafisazabbar@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Clothing,/Clothing,,,utter_clothing,We have different type of clothing product like sweater,dress,hoodies,T-shirt,flip-pops,shorts,Skirt,jeans
+dress,/dress,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,my name is noman,name,noman,utter_ask_number,What is your mobile number?
+mobile_number,01832363165,number,01832363165,utter_ask_address,What is your address
+address,kolkata,address,kolkata,utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,buy,/buy,,,utter_ask_message,Please provide the message you want to send?
+affirm,how are you,,,utter_details_thanks,Thanks for providing the given details 
+Name: noman,
+Mobile Number:01832363165,
+Address: kolkata,
+email: nomansiddique719@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,dhaka,address,dhaka,utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_details_thanks,Thanks for providing the given details 
+Name: jahed,
+Mobile Number:01690243037,
+Address: dhaka,
+email: nomansiddique719@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,noman,name,noman,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,dhaka,address,dhaka,utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_details_thanks,Thanks for providing the given details 
+Name: noman,
+Mobile Number:01690243037,
+Address: dhaka,
+email: nomansiddique719@gmail.com.  we will sent product details as early as possible
+utter_lead_q2,Thanks for answering all our questions and being this patient. We appreciate it!
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,kolkata,address,kolkata,utter_ask_email,What is your email id?
+email,nafisazabbar@gmail.com,email,nafisazabbar@gmail.com,utter_details_thanks,Thanks for providing the given details 
+Name: jahed,
+Mobile Number:01690243037,
+Address: kolkata,
+email: nafisazabbar@gmail.com.  we will sent product details as early as possible
+utter_lead_q2,Thanks for answering all our questions and being this patient. We appreciate it!
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+dell,/dell,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,noman,,,my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,dhaka,address,dhaka,utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_details_thanks,Thanks for providing the given details 
+Name: jahed,
+Mobile Number:01690243037,
+Address: dhaka,
+email: nomansiddique719@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,dhaka,address,dhaka,utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,email,nafisazabbar@gmail.com,email,nafisazabbar@gmail.com,utter_ask_message,Please provide the message you want to send?
+greet,hello how are you?,,,utter_details_thanks,Thanks for providing the given details 
+Name: jahed,
+Mobile Number:01690243037,
+Address: dhaka,
+email: nafisazabbar@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+applepay,/applepay,,,utter_applepay,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_subject,Please provide the subject for your email.
+sent_sms,text,,,utter_ask_message,Please provide the message you want to send?
+greet,hello how  are you,,,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+applepay,/applepay,,,utter_applepay,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,javedbd1984@gmail.com,email,javedbd1984@gmail.com,utter_ask_subject,Please provide the subject for your email.
+Electronics,ecommarce problem,,,utter_ask_message,Please provide the message you want to send?
+what_do_you_have,this is product details for you,,,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+applepay,/applepay,,,utter_applepay,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_subject,Please provide the subject for your email.
+Television,business,,,utter_ask_message,Please provide the message you want to send?
+bot_challenge,how are you,,,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+applepay,/applepay,,,utter_applepay,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_subject,Please provide the subject for your email.
+Electronics,ecommarce,,,utter_ask_message,Please provide the message you want to send?
+greet,hello how are you,,,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,my name is noman siddique,,,deny,akash,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,my name is noman siddique,,,deny,akash,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+utter_ask_name,What is your name?
+deny,akash,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+my_name,my name is noman siddique,,,deny,akash,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+utter_ask_name,What is your name?
+deny,akash,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+utter_ask_name,What is your name?
+my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,kolkata,address,kolkata,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_subject,Please provide the subject for your email.
+Electronics,ecommarce,,,utter_ask_message,Please provide the message you want to send?
+mobile_number,HP 15s-du3023TU Core i3 11th Gen 15.6" FHD Laptop
+Intel Core i3-1115G4 Processor (6M Cache, 3.00 GHz up to 4.10 GHz)
+4GB DDR4 SDRAM
+1TB 5400 rpm SATA HDD
+15.6" FHD (1920 x 1080) Display,number,15.6,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_subject,Please provide the subject for your email.
+Electronics,ecommarce,,,utter_ask_message,Please provide the message you want to send?
+mobile_number,Intel Core i5-10300H Processor (8M Cache, 2.50 GHz up to 4.50 GHz)
+8 GB DDR4 2933MHz SDRAM
+256GB NVMe SSD + 1TB HDD
+NVIDIA GTX 1650Ti 4 GB Graphics,number,2.50,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Clothing,/Clothing,,,utter_clothing,We have different type of clothing product like sweater,dress,hoodies,T-shirt,flip-pops,shorts,Skirt,jeans
+dress,/dress,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_subject,Please provide the subject for your email.
+Clothing,cloth sell,,,utter_ask_message,Please provide the message you want to send?
+mobile_number,HP Pavilion Gaming 16-A0093TX Core i7 10th Gen GTX 1660Ti 6GB Graphics 16.1" FHD Laptop with Win 10
+Intel Core i7-10750H Processor (12M Cache, 2.60 GHz up to 5.00 GHz)
+16GB DDR4 2933MHz SDRAM
+256GB NVMe SSD + 1TB HDD
+NVIDIA GTX 1660Ti 6GB Graphics
+129,000,number,16-A0093TX,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Clothing,/Clothing,,,utter_clothing,We have different type of clothing product like sweater,dress,hoodies,T-shirt,flip-pops,shorts,Skirt,jeans
+dress,/dress,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_subject,Please provide the subject for your email.
+Clothing,cloth sell,,,utter_ask_message,Please provide the message you want to send?
+mobile_number,HP Pavilion Gaming 16-A0093TX Core i7 10th Gen GTX 1660Ti 6GB Graphics 16.1" FHD Laptop with Win 10
+Intel Core i7-10750H Processor (12M Cache, 2.60 GHz up to 5.00 GHz)
+16GB DDR4 2933MHz SDRAM
+256GB NVMe SSD + 1TB HDD
+NVIDIA GTX 1660Ti 6GB Graphics
+129,000,number,16-A0093TX,deny,/deny,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Clothing,/Clothing,,,utter_clothing,We have different type of clothing product like sweater,dress,hoodies,T-shirt,flip-pops,shorts,Skirt,jeans
+dress,/dress,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_subject,Please provide the subject for your email.
+Clothing,cloth sell,,,utter_ask_message,Please provide the message you want to send?
+mobile_number,HP Pavilion Gaming 16-A0093TX Core i7 10th Gen GTX 1660Ti 6GB Graphics 16.1" FHD Laptop with Win 10
+Intel Core i7-10750H Processor (12M Cache, 2.60 GHz up to 5.00 GHz)
+16GB DDR4 2933MHz SDRAM
+256GB NVMe SSD + 1TB HDD
+NVIDIA GTX 1660Ti 6GB Graphics
+129,000,number,16-A0093TX,deny,/deny,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+deny,/deny,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Clothing,/Clothing,,,utter_clothing,We have different type of clothing product like sweater,dress,hoodies,T-shirt,flip-pops,shorts,Skirt,jeans
+dress,/dress,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_subject,Please provide the subject for your email.
+Clothing,cloth sell,,,utter_ask_message,Please provide the message you want to send?
+mobile_number,HP Pavilion Gaming 16-A0093TX Core i7 10th Gen GTX 1660Ti 6GB Graphics 16.1" FHD Laptop with Win 10
+Intel Core i7-10750H Processor (12M Cache, 2.60 GHz up to 5.00 GHz)
+16GB DDR4 2933MHz SDRAM
+256GB NVMe SSD + 1TB HDD
+NVIDIA GTX 1660Ti 6GB Graphics
+129,000,number,16-A0093TX,deny,/deny,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+deny,/deny,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+deny,/deny,,,utter_deny,Thank you for interesting, please check here for more details, https://www.startech.com.bd/laptop-notebook?filter=1059 
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+dell,/dell,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_name,What is your name?
+tell_name,munna,,,my_name,jahed,name,jahed,utter_ask_number,What is your mobile number?
+mobile_number,01690243037,number,01690243037,utter_ask_address,What is your address
+address,kolkata,address,kolkata,utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_subject,Please provide the subject for your email.
+what_do_you_have,product details,,,utter_ask_message,Please provide the message you want to send?
+what_do_you_have,i want to product details,,,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your name,mobile_number,email,address?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nomansiddique719@gmail.com,email,nomansiddique719@gmail.com,utter_ask_subject,Please provide the subject for your email.
+what_do_you_have,shop,,,utter_ask_message,Please provide the message you want to send?
+what_do_you_have,i need full product specification,,,utter_details_thanks,Thanks for providing the given details 
+Name: None,
+Mobile Number:None,
+Address: None,
+email: nomansiddique719@gmail.com.  we will sent product details as early as possible
+greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Electronics,/Electronics,,,utter_electronics,We have different type of electronics product like Mobile,Television,Laptop,Camera
+computer,/computer,,,utter_computer,We have different brand of computers, what would you prefered?
+hp,/hp,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your email?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nafisazabbar@gmail.com,email,nafisazabbar@gmail.com,utter_ask_subject,Please provide the subject for your email.
+buy,question about product,,,utter_ask_message,Please provide the message you want to send?
+mobile,i want to buy mobile phone,,,greet,/greet,,,utter_botgreet,Welcome to our shop, how can i help you sir? 
+utter_multiple,We have multiple items
+utter_electronics_or_clothing,What would you prefered clothing or electronics
+Clothing,/Clothing,,,utter_clothing,We have different type of clothing product like sweater,dress,hoodies,T-shirt,flip-pops,shorts,Skirt,jeans
+sweater,/sweater,,,buy,/buy,,,utter_buy,For know about product details please visit our website
+payment,/payment,,,utter_payment_methods,We accept all major credit cards, Apple Pay, Google Pay, and PayPal. 
+paypal,/paypal,,,utter_paypal,Please give me your email?we will contact with you as soon as possible
+utter_ask_email,What is your email id?
+email,nafisazabbar@gmail.com,email,nafisazabbar@gmail.com,utter_ask_subject,Please provide the subject for your email.
+affirm,ok,,,utter_ask_message,Please provide the message you want to send?
+hoodies,i need hoddies,,,

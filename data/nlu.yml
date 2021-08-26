@@ -195,7 +195,7 @@ nlu:
     - huawai phone
     - i want huawai phone
     - huawai mobile phone
-- intent: Television
+- intent: television
   examples: |
     - i want to buy television
     - Television
@@ -341,6 +341,13 @@ nlu:
     - my email id is [rahul@gmail.com]{"entity":"email"}
     - [rahul@gmail.com]{"entity":"email"}
     - [rahul@gmail.com]{"entity":"email"}
+    - my email id is [nomansiddique719@gmail.com]{"entity":"email"}
+    - [nomansiddique719@gmail.com] is my {"entity":"email"} email id
+    - [nomansiddique719@gmail.com]{"entity":"email"}
+    - my email address is [nomansiddique719@gmail.com]{"entity":"email"}
+    - my email address is [nafisazabbar@gmail.com]{"entity":"email"}
+    - [nafisazabbar@gmail.com]{"entity":"email"}
+    - [nafisazabbar@gmail.com]{"entity":"email"} is my email address
 - intent: tell_name
   examples: |
     - what is your name?
@@ -408,3 +415,9 @@ nlu:
     - i would like to send sms
     - send sms
     - i want to send text messege
+- intent: send_email
+  examples: |
+    - I want to to send email
+    - Send an email
+    - Send email
+    - email

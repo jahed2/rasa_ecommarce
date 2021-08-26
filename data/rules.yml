@@ -71,22 +71,26 @@ rules:
   - intent: paypal
   - action: utter_paypal
   # - action: action_carousels
-  - action: user_details_form
-  - active_loop: user_details_form
+  - action: email_form 
+  - active_loop: email_form
 
 
 - rule: paypal
   condition:
   #condition that form is active
-  - active_loop: user_details_form
+  - active_loop: email_form 
   steps:
   #form is deactivated
-  - action: user_details_form
+  - action: email_form
   - active_loop: null
   - slot_was_set:
     - requested_slot: null
   #the action we want to run when the form is submitted
-  - action: action_submit
+  # - action: action_submit
+  - action: action_submit1
+  # - action: basic_info
+  # - action: action_send_mail
+  - action: action_save_conversation
 
 
 
@@ -112,27 +116,58 @@ rules:
 #   #the action we want to run when the form is submitted
 #   - action: action_submit1
 
+#this is active next time 
 
-- rule: applepay details 
-  steps: 
-  # - intent: tell_name
-  - intent: applepay
-  - action: utter_applepay
-  - action: sms_details_form
-  - active_loop: sms_details_form
+# - rule: applepay details 
+#   steps: 
+#   # - intent: tell_name
+#   - intent: applepay
+#   - action: utter_applepay
+#   - action: user_details_form
+#   - active_loop: user_details_form
 
-- rule: applepay
-  condition:
-  #condition that form is active
-  - active_loop: sms_details_form
+# - rule: applepay
+#   condition:
+#   #condition that form is active
+#   - active_loop: user_details_form
+#   steps:
+#   #form is deactivated
+#   - action: user_details_form
+#   - active_loop: null
+#   - slot_was_set:
+#     - requested_slot: null
+#   #the action we want to run when the form is submitted
+#   - action: action_submit
+#   # - action: action_send_mail
+#   # - action: basic_info
+#   - action: action_save_conversation
+
+
+
+- rule: Activate Form
   steps:
-  #form is deactivated
-  - action: sms_details_form
+    - intent: applepay
+    - action: utter_applepay
+    - action: email_form
+    - active_loop: email_form
+
+- rule: Submit form
+  condition:
+  # Condition that form is active.
+  - active_loop: email_form
+  steps:
+  # Form is deactivated
+  - action: email_form
   - active_loop: null
   - slot_was_set:
     - requested_slot: null
-  #the action we want to run when the form is submitted
+  # The actions we want to run when the form is submitted.
+  # - action: action_submit
   - action: action_submit1
+  - action: action_save_conversation
+
+
+
 
 
 # - rule: googlepay details 
@@ -204,6 +239,9 @@ rules:
     - requested_slot: null
   #the action we want to run when the form is submitted
   - action: action_submit
+  # - action: action_send_mail
+  # - action: basic_info
+  - action: action_save_conversation
   
 
 # - rule: samsung mobile details
@@ -494,9 +532,15 @@ rules:
   steps:
   - intent: deny
   - action: utter_deny
+  - action: action_save_conversation
 
 - rule: say for payment
   steps:
   - intent: payment
   - action: utter_payment_methods
   
+
+# - rule: email confirmation
+#   steps:
+#   - intent: 
+#   - action: 

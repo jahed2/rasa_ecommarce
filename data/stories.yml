@@ -92,6 +92,7 @@ stories:
   - action: utter_electronics
   - intent: mobile 
   - action: utter_mobile
+  # - action: action_save_conversation
 
 
 - story: happy path 6
@@ -103,9 +104,9 @@ stories:
   - action: utter_electronics_or_clothing
   - intent: Electronics
   - action: utter_electronics
-  - intent: Television
-  - action: utter_televison
- 
+  - intent: television
+  - action: utter_television
+  # - action: action_save_conversation
   
 
 # - story: carousel
@@ -128,3 +129,7 @@ stories:
 #   steps:
 #     - intent: deny
 #     - action: utter_deny
+
+# - story: happy path 7
+#   steps: 
+#   - intent: 

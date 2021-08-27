@@ -137,7 +137,7 @@ responses:
   - text: "We have different brand of Television, what would you prefered?"
     buttons:
       - title: "Sony"
-        paylaod: "/sony"
+        payload: "/sony"
       - title: "LG"
         payload: "/lg"
       # - title: "Samsung TVs"

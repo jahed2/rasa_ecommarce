@@ -281,7 +281,7 @@ def SendEmail(toaddr,subject,message):
 
 
 #          server = smtplib.SMTP_SSL('smtp.gmail.com', 465) #connect to smtp server
-#          server.login("nafisazabbar@gmail.com", "NO12458910")  
+#         
 #          # you can write your mail and or get it from the slots with tracker.get_slot
 #          # if you are using your email is better that you dont pass it through the code for security u can 
 #          # set path variables with email and password and use them instead
@@ -290,7 +290,7 @@ def SendEmail(toaddr,subject,message):
 #          msg ="Subject: {} \n\n {} " .format(Subject,Body) #creating the message
 
 #          server.sendmail(                     #send the email 
-#          "nafisazabbar@gmail.com", 
+#          
 #          Recipient, 
 #          msg)                         
 #          server.quit()  
